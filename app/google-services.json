@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4763451816",
+    "firebase_url": "https://transline-a61ca.firebaseio.com",
+    "project_id": "transline-a61ca",
+    "storage_bucket": "transline-a61ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4763451816:android:abe0e8a0ce18866d099d9d",
+        "android_client_info": {
+          "package_name": "com.example.transline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4763451816-t80p2ecsh13llutflug3kngclq4f6rfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.transline",
+            "certificate_hash": "389f525a8ef3d5290c260bbece1bb85a8e742527"
+          }
+        },
+        {
+          "client_id": "4763451816-noanrp7eqcc1hr8t6d3ma1t9i7stfu4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDglOkMlKuapppsovK2obCY_P6gIuO_FEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4763451816-noanrp7eqcc1hr8t6d3ma1t9i7stfu4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

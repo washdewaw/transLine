@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.home.HomeFragment">
+
+    <Button
+        android:id="@+id/denDepotButton"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="104dp"
+        android:text="DEPOT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/denDriversButton"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="DRIVERS"
+        app:layout_constraintEnd_toEndOf="@+id/denDepotButton"
+        app:layout_constraintStart_toStartOf="@+id/denDepotButton"
+        app:layout_constraintTop_toBottomOf="@+id/denDepotButton" />
+
+    <Button
+        android:id="@+id/denMapsButton"
+        android:layout_width="217dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:text="MAPS"
+        app:layout_constraintEnd_toEndOf="@+id/denDriversButton"
+        app:layout_constraintStart_toStartOf="@+id/denDriversButton"
+        app:layout_constraintTop_toBottomOf="@+id/denDriversButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

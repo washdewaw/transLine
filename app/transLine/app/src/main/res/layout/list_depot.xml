@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="301dp">
+
+            <TextView
+                android:id="@+id/textViewDepot1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Depot1"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewDepot2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewDepot1"
+                app:layout_constraintStart_toStartOf="@+id/textViewDepot1"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDepot1" />
+
+            <TextView
+                android:id="@+id/textViewDepot3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewDepot2"
+                app:layout_constraintStart_toStartOf="@+id/textViewDepot2"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDepot2" />
+
+            <TextView
+                android:id="@+id/textViewDepot4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textViewDepot3"
+                app:layout_constraintStart_toStartOf="@+id/textViewDepot3"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDepot3" />
+
+            <TextView
+                android:id="@+id/textViewDepot5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="@+id/textViewDepot4"
+                app:layout_constraintStart_toStartOf="@+id/textViewDepot4"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDepot4" />
+
+            <CheckBox
+                android:id="@+id/checkBoxdepot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Delivered"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textViewDepot5"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDepot5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

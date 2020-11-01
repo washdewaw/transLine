@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_admin"
+    app:startDestination="@id/nav_home_admin">
+
+    <fragment
+        android:id="@+id/nav_home_admin"
+        android:name="com.example.transline.uiAdmin.HomeFragmentAdmin"
+        android:label="fragment_home_admin"
+        tools:layout="@layout/fragment_home_admin" />
+    <fragment
+        android:id="@+id/nav_manage_drivers"
+        android:name="com.example.transline.uiAdmin.ManageDriversAdminFragment"
+        android:label="fragment_manage_drivers_admin"
+        tools:layout="@layout/fragment_manage_drivers_admin" />
+    <fragment
+        android:id="@+id/nav_manage_shipments"
+        android:name="com.example.transline.uiAdmin.ManageShipmentsAdminFragment"
+        android:label="fragment_manage_shipments_admin"
+        tools:layout="@layout/fragment_manage_shipments_admin" />
+</navigation>
